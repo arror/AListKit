@@ -10,8 +10,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "AListKit",
-      url: "https://github.com/arror/AListKit/releases/download/0.0.11/AListKit.xcframework.zip",
-      checksum: "f2bc558f226982167832de1ac15156fbb9937717e0bb0067f57339474bdfc3da"
+      url: "https://github.com/arror/AListKit/releases/download/0.0.12/AListKit.xcframework.zip",
+      checksum: "17b0cf4373c8c6617690ff2428477ac644469098801e092938a07670753fa884"
     )
   ]
 )
