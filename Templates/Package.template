@@ -1,0 +1,17 @@
+// swift-tools-version: 5.7
+import PackageDescription
+
+let package = Package(
+  name: "AListKit",
+  platforms: [.iOS(.v11)],
+  products: [
+    .library(name: "AListKit", targets: ["AListKit"])
+  ],
+  targets: [
+    .binaryTarget(
+      name: "AListKit",
+      url: "https://github.com/arror/AListKit/releases/download/VERSION/AListKit.xcframework.zip",
+      checksum: "CHECKSUM"
+    )
+  ]
+)
