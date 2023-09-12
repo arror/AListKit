@@ -13,16 +13,17 @@ jobs:
     runs-on: macOS-12
     steps:
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           repository: ${{secrets.RESPOSITORY}}
+          ref: origin/ios
           token: ${{secrets.PAT}}
           path: 'ios'
           
       - name: Setup Go
-        uses: actions/setup-go@v3.5.0
+        uses: actions/setup-go@v4
         with:
           go-version: '1.20'
       
