@@ -3,15 +3,15 @@ import PackageDescription
 
 let package = Package(
   name: "AListKit",
-  platforms: [.iOS(.v11)],
+  platforms: [.iOS(.v15)],
   products: [
     .library(name: "AListKit", targets: ["AListKit"])
   ],
   targets: [
     .binaryTarget(
       name: "AListKit",
-      url: "https://github.com/arror/AListKit/releases/download/0.0.34/AListKit.xcframework.zip",
-      checksum: "e5ad07413bbb761cfefae0117a774e07f8a93aa36f05906b87278c469f6cc2a5"
+      url: "https://github.com/arror/AListKit/releases/download/0.0.35/AListKit.xcframework.zip",
+      checksum: "8e35c2e1d6c935977f16c9a204d56d9f6911ee685d6771f3e5f6382b4e8ffe8d"
     )
   ]
 )
